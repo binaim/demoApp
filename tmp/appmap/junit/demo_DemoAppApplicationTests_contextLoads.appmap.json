@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "defined_class": "demo.DemoAppApplicationTests",
+      "event": "call",
+      "id": 1,
+      "lineno": 11,
+      "method_id": "contextLoads",
+      "path": "demo/DemoAppApplicationTests.java",
+      "receiver": {
+        "class": "demo.DemoAppApplicationTests",
+        "object_id": 1095575585,
+        "value": "demo.DemoAppApplicationTests@414d2821"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000607,
+      "event": "return",
+      "id": 2,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Demo app applications context loads",
+    "app": "DemoApp",
+    "language": {
+      "name": "java",
+      "version": "11.0.19+7-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "demo.DemoAppApplicationTests",
+      "method_id": "contextLoads"
+    },
+    "source_location": "demo/DemoAppApplicationTests.java:11",
+    "frameworks": [
+      {
+        "name": "JUnit",
+        "version": "5"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "contextLoads",
+              "type": "function",
+              "static": false,
+              "location": "demo/DemoAppApplicationTests.java:11"
+            }
+          ],
+          "name": "DemoAppApplicationTests",
+          "type": "class"
+        }
+      ],
+      "name": "demo",
+      "type": "package"
+    }
+  ]
+}
