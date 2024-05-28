@@ -11,6 +11,7 @@ public class DemoController {
 
     @GetMapping("/showMessage")
     public Greeting sayMessage(){
-       return greetingService.getGreeting();
+
+        return greetingService.getGreeting();
     }
 }

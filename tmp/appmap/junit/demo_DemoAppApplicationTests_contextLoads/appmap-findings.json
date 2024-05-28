@@ -44,10 +44,10 @@
         "rule": "update-in-get-request"
       }
     ],
-    "timestampMs": 1714966543908
+    "timestampMs": 1716622803262
   },
   "appMapMetadata": {
-    "/Users/biniamghebremedhin/Documents/Learning Documents/MIU On Campus/SA-Rene/week1/Lesson+2+Layering+_+Spring+Boot/DemoApp/tmp/appmap/junit/demo_DemoAppApplicationTests_contextLoads.appmap.json": {
+    "/Users/biniamghebremedhin/IdeaProjects/demoApp/tmp/appmap/junit/demo_DemoAppApplicationTests_contextLoads.appmap.json": {
       "name": "Demo app applications context loads",
       "recording": {
         "defined_class": "demo.DemoAppApplicationTests",
